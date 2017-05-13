@@ -1,4 +1,4 @@
-package com.example.prades.board;
+package com.example.prades.incookmobile;
 
 import org.junit.Test;
 

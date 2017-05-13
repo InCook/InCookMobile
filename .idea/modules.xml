@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Board.iml" filepath="$PROJECT_DIR$/Board.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InCookMobile.iml" filepath="$PROJECT_DIR$/InCookMobile.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -1,4 +1,4 @@
-package com.example.prades.board;
+package com.example.prades.incookmobile;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
