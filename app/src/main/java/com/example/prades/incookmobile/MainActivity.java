@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 t.setText("");
                 if(login_id.getText().toString().equals("a")) {
                     if(login_pw.getText().toString().equals("a")) {
-                        Intent intent = new Intent(MainActivity.this, searchActivity.class);
+                        Intent intent = new Intent(MainActivity.this, DisplayRecipeActivity.class);
                         startActivity(intent);
                     }else {
                         t.setText("wrong password");
