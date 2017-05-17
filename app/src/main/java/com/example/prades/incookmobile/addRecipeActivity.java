@@ -1,18 +1,16 @@
 package com.example.prades.incookmobile;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.Window;
 import android.widget.Button;
 
 /**
  * Created by prades on 2017-05-13.
  */
 
-public class addRecipeActivity extends AppCompatActivity {
+public class AddRecipeActivity extends AppCompatActivity {
     Button save;
     Button cancel;
 
@@ -29,7 +27,7 @@ public class addRecipeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(v==cancel) {
-                    Intent intent = new Intent(addRecipeActivity.this, searchActivity.class);
+                    Intent intent = new Intent(AddRecipeActivity.this, DisplayRecipeActivity.class);
                     startActivity(intent);
                 }
             }

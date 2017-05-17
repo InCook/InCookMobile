@@ -50,6 +50,8 @@ public class DisplayRecipeActivity extends AppCompatActivity {
                         sidebar_search.setBackgroundColor(Color.rgb(80, 95, 100));
                         Intent intent = new Intent(DisplayRecipeActivity.this, SearchRecipeActivity.class);
                         startActivity(intent);
+                        overridePendingTransition(R.anim.anim_slide_in_left, R.anim.anim_slide_out_right);
+                        finish();
                     } else if (event.getAction() == MotionEvent.ACTION_UP) {
                         sidebar_search.setBackgroundColor(Color.rgb(115, 135, 145));
                     }
