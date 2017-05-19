@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 
@@ -38,6 +39,8 @@ public class DisplayRecipeActivity extends AppCompatActivity {
                 if(v==add_button) {
                     Intent intent = new Intent(DisplayRecipeActivity.this, AddRecipeActivity.class);
                     startActivity(intent);
+                    overridePendingTransition(R.anim.anim_slide_in_top, R.anim.anim_slide_out_buttom);
+                    finish();
                 }
             }
         });
@@ -112,4 +115,6 @@ public class DisplayRecipeActivity extends AppCompatActivity {
 
         return super.onKeyDown(keyCode, event);
     }
+
+
 }
