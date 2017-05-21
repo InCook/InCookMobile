@@ -30,7 +30,7 @@ public class AddRecipeActivity extends AppCompatActivity {
                 if(v==cancel) {
                     Intent intent = new Intent(AddRecipeActivity.this, DisplayRecipeActivity.class);
                     startActivity(intent);
-                    overridePendingTransition(R.anim.anim_slide_in_buttom, R.anim.anim_slide_out_top);
+                    overridePendingTransition(R.anim.anim_slide_in_left, R.anim.anim_slide_out_right);
                     finish();
                 }
             }
@@ -42,7 +42,7 @@ public class AddRecipeActivity extends AppCompatActivity {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
             Intent intent = new Intent(AddRecipeActivity.this, DisplayRecipeActivity.class);
             startActivity(intent);
-            overridePendingTransition(R.anim.anim_slide_in_buttom, R.anim.anim_slide_out_top);
+            overridePendingTransition(R.anim.anim_slide_in_left, R.anim.anim_slide_out_right);
             finish();
         }
 

@@ -70,6 +70,7 @@
                 android:id="@+id/search_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="#ffffff"
                 android:hint="Search"
                 android:textColorHint="#ffffff"
                 android:backgroundTint="#ffffff"

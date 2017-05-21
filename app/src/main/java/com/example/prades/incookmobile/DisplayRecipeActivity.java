@@ -39,7 +39,7 @@ public class DisplayRecipeActivity extends AppCompatActivity {
                 if(v==add_button) {
                     Intent intent = new Intent(DisplayRecipeActivity.this, AddRecipeActivity.class);
                     startActivity(intent);
-                    overridePendingTransition(R.anim.anim_slide_in_top, R.anim.anim_slide_out_buttom);
+                    overridePendingTransition(R.anim.anim_slide_in_right, R.anim.anim_slide_out_left);
                     finish();
                 }
             }

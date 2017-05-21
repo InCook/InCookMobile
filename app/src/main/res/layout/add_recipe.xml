@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_margin="20dp">
+        android:layout_margin="10dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -41,39 +41,48 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Ingredient"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="30dp"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="search the ingredients it needs."/>
+            android:hint="search the ingredients it needs."
+            android:textSize="14dp"
+            android:textColorHint="#afafaf"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Direction"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="30dp"/>
         <EditText
+            android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:hint="Describe your recipe in detail."
-            android:background="#f3f3f3"
-            android:gravity="top|left"/>
+            android:textColorHint="#afafaf"
+            android:background="@drawable/direction"
+            android:gravity="top|left"
+            android:textSize="14dp"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp">
         <Button
             android:id="@+id/save_recipe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="SAVE"
-            android:layout_marginRight="10dp"/>
+            android:textColor="#ffffff"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/save_button"/>
         <Button
             android:id="@+id/cancel_recipe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="CANCEL"
-            android:layout_marginLeft="10dp"/>
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/cancle_button"/>
     </LinearLayout>
 </LinearLayout>
